@@ -183,7 +183,7 @@ const Hero = () => {
           <p className="font-robert-regular text-white text-md font-light max-w-[25ch]">
             Enter the world of stunning animations that ignite emotions.
           </p>
-          <a href="/#contact">
+          <a href="#contact">
             <Button
               text="get in touch"
               containerClass="bg-neonViolet-300 text-white"

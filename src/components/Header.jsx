@@ -54,7 +54,7 @@ const Header = () => {
       <div id="nav-bg" className="bg-black rounded-lg px-4 py-2">
         <nav className="flex items-center justify-between gap-2 md:gap-4">
           <div className="flex items-center justify-center gap-2 md:gap-4 shrink-0">
-            <a href="/#hero">
+            <a href="#hero">
               <img
                 src="images/mythology-logo-new.png"
                 alt="logo"
@@ -67,14 +67,14 @@ const Header = () => {
               {navItems.map((item) => (
                 <a
                   key={item}
-                  href={`/#${item}`}
+                  href={`#${item}`}
                   className="nav-hover-effect font-robert-regular text-xs uppercase text-white"
                 >
                   {item}
                 </a>
               ))}
             </div>
-            <a href="/#contact" className="inline-block sm:hidden">
+            <a href="#contact" className="inline-block sm:hidden">
               <Button
                 text="get in touch"
                 containerClass="bg-neonViolet-300 text-white"
