@@ -56,7 +56,7 @@ const Header = () => {
           <div className="flex items-center justify-center gap-2 md:gap-4 shrink-0">
             <a href="#hero">
               <img
-                src="/images/mythology-logo-new.png"
+                src="images/mythology-logo-new.png"
                 alt="logo"
                 className="h-10"
               />
@@ -89,7 +89,7 @@ const Header = () => {
               className="cursor-pointer group"
             >
               <audio
-                src="/audio/loop.mp3"
+                src="audio/loop.mp3"
                 className="hidden"
                 ref={audioRef}
                 loop

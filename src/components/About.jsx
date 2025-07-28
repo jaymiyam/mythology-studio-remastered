@@ -54,7 +54,7 @@ const About = () => {
           className="absolute top-1/2 left-1/2 -translate-[50%] z-10 overflow-hidden border border-black w-96 h-[60vh]"
         >
           <img
-            src="/images/yeti-1.jpg"
+            src="images/yeti-1.jpg"
             className="object-cover size-full origin-center"
           />
         </div>
