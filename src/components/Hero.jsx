@@ -9,10 +9,10 @@ import { ScrollTrigger } from 'gsap/all';
 gsap.registerPlugin(ScrollTrigger);
 
 const videoList = [
-  'videos/work-clip-12.mp4',
-  'videos/work-clip-2.mp4',
-  'videos/work-clip-9.mp4',
-  'videos/work-clip-10.mp4',
+  '/videos/work-clip-12.mp4',
+  '/videos/work-clip-2.mp4',
+  '/videos/work-clip-9.mp4',
+  '/videos/work-clip-10.mp4',
 ];
 const heroStyles = [
   {

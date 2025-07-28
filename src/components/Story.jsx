@@ -75,7 +75,7 @@ const Story = () => {
                   onMouseLeave={handleMouseLeave}
                   onMouseUp={handleMouseLeave}
                   onMouseEnter={handleMouseLeave}
-                  src="images/work-clip-8-poster.png"
+                  src="/images/work-clip-8-poster.png"
                   className="object-contain"
                 />
               </div>

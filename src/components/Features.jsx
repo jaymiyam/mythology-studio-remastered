@@ -61,7 +61,7 @@ const Features = () => {
           <TiltWrapper classes="col-span-1 row-span-1 bg-neonViolet-300">
             <video
               className="absolute inset-0 z-10 size-full object-cover object-center"
-              src="videos/work-clip-13.mp4"
+              src="/videos/work-clip-13.mp4"
               muted
               loop
               autoPlay
