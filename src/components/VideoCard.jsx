@@ -1,7 +1,6 @@
 import { useRef } from 'react';
-import { Icon } from '@iconify/react/dist/iconify.js';
 
-const VideoCard = ({ video, title, description, isWhiteText }) => {
+const VideoCard = ({ video, poster, title, description, isWhiteText }) => {
   const videoRef = useRef(null);
 
   const hoverIn = () => {
@@ -21,6 +20,7 @@ const VideoCard = ({ video, title, description, isWhiteText }) => {
         ref={videoRef}
         className="absolute inset-0 z-10 size-full object-cover object-center"
         src={video}
+        poster={poster}
         muted
         loop
         playsInline

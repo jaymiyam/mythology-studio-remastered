@@ -18,6 +18,7 @@ const Features = () => {
         <TiltWrapper classes="w-full h-96">
           <VideoCard
             video="videos/work-clip-11.mp4"
+            poster="images/work-clip-11-poster.png"
             title="2D/3D Animation"
             description="We turn your ideas into stunning motion graphics with top-notch technologies."
           />
@@ -25,7 +26,8 @@ const Features = () => {
         <div className="w-full h-[180vh] md:h-[140vh] grid grid-cols-2 md:grid-rows-3 gap-5 my-5">
           <TiltWrapper classes="col-span-2 md:col-span-1 row-span-2">
             <VideoCard
-              video="videos/work-clip-2.mp4"
+              video="videos/work-clip-6.mp4"
+              poster="images/work-clip-6-poster.png"
               title="Post Processing"
               description="Meticulous and detail-oriented post processing workflow to produces the highest quality outcome."
             />
@@ -34,6 +36,7 @@ const Features = () => {
             <VideoCard
               isWhiteText
               video="videos/work-clip-3.mp4"
+              poster="images/work-clip-3-poster.png"
               title="CGI"
               description="Anything is possible. Imagination is the limit."
             />
@@ -41,6 +44,7 @@ const Features = () => {
           <TiltWrapper classes="col-span-2 md:col-span-1 row-span-1">
             <VideoCard
               video="videos/work-clip-4.mp4"
+              poster="images/work-clip-4-poster.png"
               title="Audio"
               description="The best motion graphic will exceed itself with the greatest audio,"
             />
@@ -62,6 +66,7 @@ const Features = () => {
             <video
               className="absolute inset-0 z-10 size-full object-cover object-center"
               src="videos/work-clip-13.mp4"
+              poster="images/work-clip-13-poster.png"
               muted
               loop
               autoPlay

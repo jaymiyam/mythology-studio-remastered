@@ -1,4 +1,4 @@
-const HeroItem = ({ video, isPreview, ref }) => {
+const HeroItem = ({ video, poster, isPreview, ref }) => {
   const hoverStyles = 'opacity-0';
   return (
     <div
@@ -12,6 +12,7 @@ const HeroItem = ({ video, isPreview, ref }) => {
         loop
         playsInline
         src={video}
+        poster={poster}
         className="object-cover object-center origin-center w-screen min-h-full"
       />
     </div>

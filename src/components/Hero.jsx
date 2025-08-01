@@ -9,10 +9,22 @@ import { ScrollTrigger } from 'gsap/all';
 gsap.registerPlugin(ScrollTrigger);
 
 const videoList = [
-  'videos/work-clip-12.mp4',
-  'videos/work-clip-2.mp4',
-  'videos/work-clip-9.mp4',
-  'videos/work-clip-10.mp4',
+  {
+    path: 'videos/work-clip-12.mp4',
+    poster: 'images/work-clip-12-poster.png',
+  },
+  {
+    path: 'videos/work-clip-2.mp4',
+    poster: 'images/work-clip-2-poster.png',
+  },
+  {
+    path: 'videos/work-clip-9.mp4',
+    poster: 'images/work-clip-9-poster.png',
+  },
+  {
+    path: 'videos/work-clip-10.mp4',
+    poster: 'images/work-clip-10-poster.png',
+  },
 ];
 const heroStyles = [
   {
@@ -163,7 +175,8 @@ const Hero = () => {
         {videoList.map((video, index) => (
           <HeroItem
             key={index}
-            video={video}
+            video={video.path}
+            poster={video.poster}
             isPreview={index === (currentIndex + 3) % videoList.length}
             ref={(el) => setRef(el, index)}
           />
