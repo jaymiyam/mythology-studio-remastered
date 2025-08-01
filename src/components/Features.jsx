@@ -17,8 +17,8 @@ const Features = () => {
         </div>
         <TiltWrapper classes="w-full h-96">
           <VideoCard
-            video="videos/work-clip-11.mp4"
-            poster="images/work-clip-11-poster.png"
+            video="videos/work-clip-7.mp4"
+            poster="images/work-clip-7-poster.png"
             title="2D/3D Animation"
             description="We turn your ideas into stunning motion graphics with top-notch technologies."
           />
